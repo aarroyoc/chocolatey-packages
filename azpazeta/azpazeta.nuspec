@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>azpazeta</id>
+		<title>Azpazeta</title>
+		<version>2.0.75</version>
+		<authors>Adrián Arroyo</authors>
+		<owners>Adrián Arroyo</owners>
+		<summary>azpazeta</summary>
+		<description>Azpazeta is the strategy-economic game where you can play thousands of adventures with the custom maps.</description>
+		<projectUrl>https://adrianarroyocalle.github.io/azpazeta-promotional-website</projectUrl>
+		<tags>game games 2d strategy maps</tags>
+		<copyright />
+		<licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>http://adrianarroyocalle.github.io/azpazeta-promotional-website/images/azpazeta_svg.svg</iconUrl>
+		<dependencies>
+			<!-- <dependency id="simutrans" /> -->
+		</dependencies>
+		<releaseNotes>
+		2.0.75 - First release on Chocolatey
+		</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
