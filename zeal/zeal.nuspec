@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>zeal</id>
+		<title>Zeal</title>
+		<version>20140620</version>
+		<authors>Jerzy Kozera</authors>
+		<owners>Adrián Arroyo</owners>
+		<summary>zeal</summary>
+		<description>Zeal is a simple offline API documentation browser inspired by Dash (OS X app), available for Linux and Windows. </description>
+		<projectUrl>http://zealdocs.org/</projectUrl>
+		<tags>dev development dash docs documentation offline browser api</tags>
+		<copyright />
+		<licenseUrl>https://github.com/jkozera/zeal/blob/master/COPYING</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl></iconUrl>
+		<dependencies>
+			<!-- <dependency id="simutrans" /> -->
+		</dependencies>
+		<releaseNotes>
+		See http://zealdocs.org/
+		</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
