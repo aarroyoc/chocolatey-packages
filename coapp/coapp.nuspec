@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>coapp</id>
+		<title>CoApp</title>
+		<version>0.1.0</version>
+		<authors>CoApp Contributors</authors>
+		<owners>Adrián Arroyo</owners>
+		<summary>coapp</summary>
+		<description>CoApp is a set of open source tools for building C/C++ NuGet packages for Windows. The goal of the CoApp project is to create a community of developers dedicated to creating a set of tools and processes that enable other open source developers to create and maintain their open source products with Windows as a primary build target. </description>
+		<projectUrl>http://coapp.org/</projectUrl>
+		<tags>dev development nuget coapp native cpp c package</tags>
+		<copyright />
+		<licenseUrl>https://github.com/coapp/coapp.powershell</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>http://coapp.org/images/logo-small_32x32.png</iconUrl>
+		<dependencies>
+			<!-- <dependency id="simutrans" /> -->
+		</dependencies>
+		<releaseNotes>
+		See http://coapp.org/pages/releases.html
+		</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
