@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>ceed</id>
+		<title>CEED</title>
+		<version>0.8.0</version>
+		<authors>CEGUI</authors>
+		<owners>Adrián Arroyo</owners>
+		<summary>ceed</summary>
+		<description>CEGUI Unified Editor</description>
+		<projectUrl>http://cegui.org.uk/</projectUrl>
+		<tags>dev development skin skinning editor cegui</tags>
+		<copyright />
+		<licenseUrl>https://bitbucket.org/cegui/ceed/src/b42617acfbc293c2b21b48c90c2fb244fee0828d/LICENSE?at=default</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2013/Dec/29/ceed-logo-1279420685-10_avatar.png</iconUrl>
+		<dependencies>
+			<!-- <dependency id="simutrans" /> -->
+		</dependencies>
+		<releaseNotes>
+		See http://cegui.org.uk
+		</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
